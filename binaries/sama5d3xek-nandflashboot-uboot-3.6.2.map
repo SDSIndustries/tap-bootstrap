@@ -1,0 +1,937 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+PMECC_paramDesc     0xccc             /home/scott/at91bootstrap/driver/nandflash.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/crt0_gnu.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/crt0_gnu.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/main.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/main.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/lib/string.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/lib/string.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/lib/string.o
+ .text.memcpy   0x00000000       0x24 /home/scott/at91bootstrap/lib/string.o
+ .text.memcmp   0x00000000       0x34 /home/scott/at91bootstrap/lib/string.o
+ .text.strcpy   0x00000000       0x1c /home/scott/at91bootstrap/lib/string.o
+ .text.strcat   0x00000000       0x30 /home/scott/at91bootstrap/lib/string.o
+ .text.strcmp   0x00000000       0x38 /home/scott/at91bootstrap/lib/string.o
+ .text.strchr   0x00000000       0x34 /home/scott/at91bootstrap/lib/string.o
+ .text.memchr   0x00000000       0x28 /home/scott/at91bootstrap/lib/string.o
+ .text.memmove  0x00000000       0x58 /home/scott/at91bootstrap/lib/string.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .text.__aeabi_unwind_cpp_pr0
+                0x00000000        0x4 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x00000000        0x4 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_info    0x00000000       0x50 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_abbrev  0x00000000       0x2c /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_aranges
+                0x00000000       0x28 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_ranges  0x00000000       0x18 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_line    0x00000000       0x65 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_str     0x00000000       0x65 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/lib/eabi_utils.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .ARM.attributes
+                0x00000000       0x2a /home/scott/at91bootstrap/lib/eabi_utils.o
+ .debug_frame   0x00000000       0x30 /home/scott/at91bootstrap/lib/eabi_utils.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/lib/div.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/lib/div.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/lib/div.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/debug.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/debug.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pio.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pio.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pio.o
+ .text.pio_set_value
+                0x00000000       0x3c /home/scott/at91bootstrap/driver/at91_pio.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/pmc.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/pmc.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/pmc.o
+ .text.pmc_cfg_pllb
+                0x00000000       0x4c /home/scott/at91bootstrap/driver/pmc.o
+ .text.pmc_cfg_pck
+                0x00000000       0x38 /home/scott/at91bootstrap/driver/pmc.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pit.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pit.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_usart.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_usart.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_usart.o
+ .text.usart_getc
+                0x00000000       0x20 /home/scott/at91bootstrap/driver/at91_usart.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/ddramc.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/ddramc.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/ddramc.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/nandflash.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/nandflash.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/pmecc.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/pmecc.o
+ .bss           0x00000000        0x0 /home/scott/at91bootstrap/driver/pmecc.o
+ .text.buf_dump
+                0x00000000        0x4 /home/scott/at91bootstrap/driver/pmecc.o
+ .text.page_dump
+                0x00000000        0x4 /home/scott/at91bootstrap/driver/pmecc.o
+ .text          0x00000000        0x0 /home/scott/at91bootstrap/driver/ds24xx.o
+ .data          0x00000000        0x0 /home/scott/at91bootstrap/driver/ds24xx.o
+ .text.get_sys_sn
+                0x00000000       0x10 /home/scott/at91bootstrap/driver/ds24xx.o
+ .text.get_sys_rev
+                0x00000000       0x10 /home/scott/at91bootstrap/driver/ds24xx.o
+ .text.get_cm_sn
+                0x00000000       0x14 /home/scott/at91bootstrap/driver/ds24xx.o
+ .text.get_cm_vendor
+                0x00000000       0x18 /home/scott/at91bootstrap/driver/ds24xx.o
+ .text.get_cm_rev
+                0x00000000       0x18 /home/scott/at91bootstrap/driver/ds24xx.o
+ .text.get_dm_sn
+                0x00000000       0x18 /home/scott/at91bootstrap/driver/ds24xx.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = ALIGN (0x4)
+
+.text           0x00300000      0xb6c
+                0x00300000                _stext = .
+ *(.text)
+ .text          0x00300000      0x130 /home/scott/at91bootstrap/crt0_gnu.o
+                0x00300000                reset
+                0x003000a4                set_cp15
+                0x003000ac                get_cp15
+                0x003000b4                disable_irq
+                0x003000c4                get_cpsr
+                0x003000cc                set_cpsr
+                0x003000d4                disable_icache
+                0x003000e8                disable_dcache
+                0x003000fc                flush_idcache
+ *(.rodata)
+ .rodata        0x00300130       0xa0 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .rodata        0x003001d0       0xa0 /home/scott/at91bootstrap/driver/nandflash.o
+ .rodata        0x00300270       0x28 /home/scott/at91bootstrap/driver/pmecc.o
+ .rodata        0x00300298      0x1d0 /home/scott/at91bootstrap/driver/ds24xx.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00300468       0x9d /home/scott/at91bootstrap/main.o
+                                 0x9f (size before relaxing)
+ .rodata.str1.1
+                0x00300505       0x1f /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .rodata.str1.1
+                0x00300524      0x17c /home/scott/at91bootstrap/driver/nandflash.o
+ .rodata.str1.1
+                0x003006a0      0x159 /home/scott/at91bootstrap/driver/pmecc.o
+ .rodata.str1.1
+                0x003007f9      0x371 /home/scott/at91bootstrap/driver/ds24xx.o
+                0x00300b6c                . = ALIGN (0x4)
+ *fill*         0x00300b6a        0x2 
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+                0x00300b6c                . = ALIGN (0x4)
+ *(.eh_frame)
+                0x00300b6c                . = ALIGN (0x4)
+                0x00300b6c                _etext = .
+
+.glue_7t        0x00300b6c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00300b6c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00300b6c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00300b6c        0x0
+ .iplt          0x00000000        0x0 /home/scott/at91bootstrap/crt0_gnu.o
+
+.text.startup.main
+                0x00300b6c      0x11c
+ .text.startup.main
+                0x00300b6c      0x11c /home/scott/at91bootstrap/main.o
+                0x00300b6c                main
+
+.text.hw_init   0x00300c88      0x1f4
+ .text.hw_init  0x00300c88      0x1f4 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+                0x00300c88                hw_init
+
+.text.nandflash_hw_init
+                0x00300e7c       0x94
+ .text.nandflash_hw_init
+                0x00300e7c       0x94 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+                0x00300e7c                nandflash_hw_init
+
+.text.memset    0x00300f10       0x20
+ .text.memset   0x00300f10       0x20 /home/scott/at91bootstrap/lib/string.o
+                0x00300f10                memset
+
+.text.strlen    0x00300f30       0x20
+ .text.strlen   0x00300f30       0x20 /home/scott/at91bootstrap/lib/string.o
+                0x00300f30                strlen
+
+.text.strncmp   0x00300f50       0x50
+ .text.strncmp  0x00300f50       0x50 /home/scott/at91bootstrap/lib/string.o
+                0x00300f50                strncmp
+
+.text.division  0x00300fa0       0x94
+ .text.division
+                0x00300fa0       0x94 /home/scott/at91bootstrap/lib/div.o
+                0x00300fa0                division
+
+.text.div       0x00301034       0x2c
+ .text.div      0x00301034       0x2c /home/scott/at91bootstrap/lib/div.o
+                0x00301034                div
+
+.text.mod       0x00301060       0x2c
+ .text.mod      0x00301060       0x2c /home/scott/at91bootstrap/lib/div.o
+                0x00301060                mod
+
+.text.fill_hex_int
+                0x0030108c       0x48
+ .text.fill_hex_int
+                0x0030108c       0x48 /home/scott/at91bootstrap/driver/debug.o
+
+.text.dbg_printf
+                0x003010d4      0x148
+ .text.dbg_printf
+                0x003010d4      0x148 /home/scott/at91bootstrap/driver/debug.o
+                0x003010d4                dbg_printf
+
+.text.slowclk_enable_osc32
+                0x0030121c       0x20
+ .text.slowclk_enable_osc32
+                0x0030121c       0x20 /home/scott/at91bootstrap/driver/at91_slowclk.o
+                0x0030121c                slowclk_enable_osc32
+
+.text.slowclk_switch_osc32
+                0x0030123c       0x38
+ .text.slowclk_switch_osc32
+                0x0030123c       0x38 /home/scott/at91bootstrap/driver/at91_slowclk.o
+                0x0030123c                slowclk_switch_osc32
+
+.text.pio_set_gpio_input
+                0x00301274       0x48
+ .text.pio_set_gpio_input
+                0x00301274       0x48 /home/scott/at91bootstrap/driver/at91_pio.o
+                0x00301274                pio_set_gpio_input
+
+.text.pio_set_gpio_output
+                0x003012bc       0x4c
+ .text.pio_set_gpio_output
+                0x003012bc       0x4c /home/scott/at91bootstrap/driver/at91_pio.o
+                0x003012bc                pio_set_gpio_output
+
+.text.pio_get_value
+                0x00301308       0x38
+ .text.pio_get_value
+                0x00301308       0x38 /home/scott/at91bootstrap/driver/at91_pio.o
+                0x00301308                pio_get_value
+
+.text.pio_configure
+                0x00301340      0x160
+ .text.pio_configure
+                0x00301340      0x160 /home/scott/at91bootstrap/driver/at91_pio.o
+                0x00301340                pio_configure
+
+.text.lowlevel_clock_init
+                0x003014a0       0xf8
+ .text.lowlevel_clock_init
+                0x003014a0       0xf8 /home/scott/at91bootstrap/driver/pmc.o
+                0x003014a0                lowlevel_clock_init
+
+.text.pmc_init_pll
+                0x00301598        0xc
+ .text.pmc_init_pll
+                0x00301598        0xc /home/scott/at91bootstrap/driver/pmc.o
+                0x00301598                pmc_init_pll
+
+.text.pmc_cfg_plla
+                0x003015a4       0x4c
+ .text.pmc_cfg_plla
+                0x003015a4       0x4c /home/scott/at91bootstrap/driver/pmc.o
+                0x003015a4                pmc_cfg_plla
+
+.text.pmc_cfg_mck
+                0x003015f0       0xd4
+ .text.pmc_cfg_mck
+                0x003015f0       0xd4 /home/scott/at91bootstrap/driver/pmc.o
+                0x003015f0                pmc_cfg_mck
+
+.text.pmc_enable_periph_clock
+                0x003016c4       0x3c
+ .text.pmc_enable_periph_clock
+                0x003016c4       0x3c /home/scott/at91bootstrap/driver/pmc.o
+                0x003016c4                pmc_enable_periph_clock
+
+.text.pmc_enable_system_clock
+                0x00301700        0xc
+ .text.pmc_enable_system_clock
+                0x00301700        0xc /home/scott/at91bootstrap/driver/pmc.o
+                0x00301700                pmc_enable_system_clock
+
+.text.timer_init
+                0x0030170c       0x24
+ .text.timer_init
+                0x0030170c       0x24 /home/scott/at91bootstrap/driver/at91_pit.o
+                0x0030170c                timer_init
+
+.text.udelay    0x00301730       0x2c
+ .text.udelay   0x00301730       0x2c /home/scott/at91bootstrap/driver/at91_pit.o
+                0x00301730                udelay
+
+.text.start_interval_timer
+                0x0030175c       0x1c
+ .text.start_interval_timer
+                0x0030175c       0x1c /home/scott/at91bootstrap/driver/at91_pit.o
+                0x0030175c                start_interval_timer
+
+.text.wait_interval_timer
+                0x00301778       0x38
+ .text.wait_interval_timer
+                0x00301778       0x38 /home/scott/at91bootstrap/driver/at91_pit.o
+                0x00301778                wait_interval_timer
+
+.text.at91_disable_wdt
+                0x003017b0       0x10
+ .text.at91_disable_wdt
+                0x003017b0       0x10 /home/scott/at91bootstrap/driver/at91_wdt.o
+                0x003017b0                at91_disable_wdt
+
+.text.usart_init
+                0x003017c0       0x2c
+ .text.usart_init
+                0x003017c0       0x2c /home/scott/at91bootstrap/driver/at91_usart.o
+                0x003017c0                usart_init
+
+.text.usart_puts
+                0x003017ec       0x50
+ .text.usart_puts
+                0x003017ec       0x50 /home/scott/at91bootstrap/driver/at91_usart.o
+                0x003017ec                usart_puts
+
+.text.hw_init_hook
+                0x0030183c        0x4
+ .text.hw_init_hook
+                0x0030183c        0x4 /home/scott/at91bootstrap/driver/hw_init_hook.o
+                0x0030183c                hw_init_hook
+
+.text.ddram_initialize
+                0x00301840      0x1d0
+ .text.ddram_initialize
+                0x00301840      0x1d0 /home/scott/at91bootstrap/driver/ddramc.o
+                0x00301840                ddram_initialize
+
+.text.nand_command
+                0x00301a10       0x20
+ .text.nand_command
+                0x00301a10       0x20 /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_address
+                0x00301a30       0x20
+ .text.nand_address
+                0x00301a30       0x20 /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_command16
+                0x00301a50       0x20
+ .text.nand_command16
+                0x00301a50       0x20 /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_address16
+                0x00301a70       0x20
+ .text.nand_address16
+                0x00301a70       0x20 /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_wait_ready
+                0x00301a90       0x30
+ .text.nand_wait_ready
+                0x00301a90       0x30 /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_get_feature_on_die_ecc
+                0x00301ac0       0x2c
+ .text.nand_get_feature_on_die_ecc
+                0x00301ac0       0x2c /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_read_sector
+                0x00301aec      0x1bc
+ .text.nand_read_sector
+                0x00301aec      0x1bc /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.nand_loadimage
+                0x00301ca8      0x188
+ .text.nand_loadimage
+                0x00301ca8      0x188 /home/scott/at91bootstrap/driver/nandflash.o
+
+.text.load_nandflash
+                0x00301e30      0x410
+ .text.load_nandflash
+                0x00301e30      0x410 /home/scott/at91bootstrap/driver/nandflash.o
+                0x00301e30                load_nandflash
+
+.text.get_sigma
+                0x00302240      0x590
+ .text.get_sigma
+                0x00302240      0x590 /home/scott/at91bootstrap/driver/pmecc.o
+
+.text.get_pmecc_bytes
+                0x003027d0       0x70
+ .text.get_pmecc_bytes
+                0x003027d0       0x70 /home/scott/at91bootstrap/driver/pmecc.o
+                0x003027d0                get_pmecc_bytes
+
+.text.init_pmecc
+                0x00302840      0x1a4
+ .text.init_pmecc
+                0x00302840      0x1a4 /home/scott/at91bootstrap/driver/pmecc.o
+                0x00302840                init_pmecc
+
+.text.pmecc_enable
+                0x003029e4       0x24
+ .text.pmecc_enable
+                0x003029e4       0x24 /home/scott/at91bootstrap/driver/pmecc.o
+                0x003029e4                pmecc_enable
+
+.text.pmecc_start_data_phase
+                0x00302a08       0x18
+ .text.pmecc_start_data_phase
+                0x00302a08       0x18 /home/scott/at91bootstrap/driver/pmecc.o
+                0x00302a08                pmecc_start_data_phase
+
+.text.PMECC_CorrectionAlgo
+                0x00302a20      0x394
+ .text.PMECC_CorrectionAlgo
+                0x00302a20      0x394 /home/scott/at91bootstrap/driver/pmecc.o
+                0x00302a20                PMECC_CorrectionAlgo
+
+.text.pmecc_process
+                0x00302db4       0xc0
+ .text.pmecc_process
+                0x00302db4       0xc0 /home/scott/at91bootstrap/driver/pmecc.o
+                0x00302db4                pmecc_process
+
+.text.set_wire_low
+                0x00302e74        0xc
+ .text.set_wire_low
+                0x00302e74        0xc /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.set_wire_input
+                0x00302e80        0xc
+ .text.set_wire_input
+                0x00302e80        0xc /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.ds24xx_read_bit
+                0x00302e8c       0x38
+ .text.ds24xx_read_bit
+                0x00302e8c       0x38 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.normalize_rev_code
+                0x00302ec4       0x34
+ .text.normalize_rev_code
+                0x00302ec4       0x34 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.normalize_rev_id
+                0x00302ef8       0x34
+ .text.normalize_rev_id
+                0x00302ef8       0x34 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.ds24xx_write_bit.part.2
+                0x00302f2c       0x20
+ .text.ds24xx_write_bit.part.2
+                0x00302f2c       0x20 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.ds24xx_reset
+                0x00302f4c       0x38
+ .text.ds24xx_reset
+                0x00302f4c       0x38 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.ds24xx_write_byte
+                0x00302f84       0x44
+ .text.ds24xx_write_byte
+                0x00302f84       0x44 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.ds24xx_search_rom
+                0x00302fc8      0x1ac
+ .text.ds24xx_search_rom
+                0x00302fc8      0x1ac /home/scott/at91bootstrap/driver/ds24xx.o
+
+.text.load_1wire_info
+                0x00303174      0x648
+ .text.load_1wire_info
+                0x00303174      0x648 /home/scott/at91bootstrap/driver/ds24xx.o
+                0x00303174                load_1wire_info
+
+.rel.dyn        0x003037bc        0x0
+ .rel.iplt      0x00000000        0x0 /home/scott/at91bootstrap/crt0_gnu.o
+                0x003037bc                . = ALIGN (0x4)
+
+.dummy          0x003037bc        0x0
+                0x003037bc                _edummy = .
+
+.data           0x003037bc        0x0
+                0x003037bc                _sdata = .
+ *(.vectors)
+ *(.data)
+                0x003037bc                _edata = .
+
+.igot.plt       0x003037bc        0x0
+ .igot.plt      0x00000000        0x0 /home/scott/at91bootstrap/crt0_gnu.o
+
+.bss            0x003037bc     0x13a0
+                0x003037bc                . = ALIGN (0x4)
+                0x003037bc                _sbss = .
+ *(.bss)
+ .bss           0x003037bc        0x8 /home/scott/at91bootstrap/main.o
+                0x003037c0                sdcard_set_of_name
+ .bss           0x003037c4       0x80 /home/scott/at91bootstrap/driver/debug.o
+ .bss           0x00303844        0x4 /home/scott/at91bootstrap/driver/at91_pit.o
+ .bss           0x00303848      0x414 /home/scott/at91bootstrap/driver/nandflash.o
+ .bss           0x00303c5c      0x234 /home/scott/at91bootstrap/driver/ds24xx.o
+                0x00303e90                _ebss = .
+ COMMON         0x00303e90      0xccc /home/scott/at91bootstrap/driver/nandflash.o
+                0x00303e90                PMECC_paramDesc
+                0x000037bc                _romsize = (_edata - _stext)
+                0x00304b5c                end = .
+Address of section .text set to 0x300000
+LOAD /home/scott/at91bootstrap/crt0_gnu.o
+LOAD /home/scott/at91bootstrap/main.o
+LOAD /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+LOAD /home/scott/at91bootstrap/lib/string.o
+LOAD /home/scott/at91bootstrap/lib/eabi_utils.o
+LOAD /home/scott/at91bootstrap/lib/div.o
+LOAD /home/scott/at91bootstrap/driver/debug.o
+LOAD /home/scott/at91bootstrap/driver/at91_slowclk.o
+LOAD /home/scott/at91bootstrap/driver/at91_pio.o
+LOAD /home/scott/at91bootstrap/driver/pmc.o
+LOAD /home/scott/at91bootstrap/driver/at91_pit.o
+LOAD /home/scott/at91bootstrap/driver/at91_wdt.o
+LOAD /home/scott/at91bootstrap/driver/at91_usart.o
+LOAD /home/scott/at91bootstrap/driver/hw_init_hook.o
+LOAD /home/scott/at91bootstrap/driver/ddramc.o
+LOAD /home/scott/at91bootstrap/driver/nandflash.o
+LOAD /home/scott/at91bootstrap/driver/pmecc.o
+LOAD /home/scott/at91bootstrap/driver/ds24xx.o
+OUTPUT(/home/scott/at91bootstrap/binaries/sama5d3xek-nandflashboot-uboot-3.6.2.elf elf32-littlearm)
+
+start           0x00000000        0x0
+                0x00000000                PROVIDE (__start_start, .)
+ start          0x00000000        0x0 /home/scott/at91bootstrap/crt0_gnu.o
+                0x00000000                PROVIDE (__stop_start, .)
+
+.ARM.attributes
+                0x00000000       0x26
+ .ARM.attributes
+                0x00000000       0x1a /home/scott/at91bootstrap/crt0_gnu.o
+ .ARM.attributes
+                0x0000001a       0x2a /home/scott/at91bootstrap/main.o
+ .ARM.attributes
+                0x00000044       0x2a /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .ARM.attributes
+                0x0000006e       0x2a /home/scott/at91bootstrap/lib/string.o
+ .ARM.attributes
+                0x00000098       0x2a /home/scott/at91bootstrap/lib/div.o
+ .ARM.attributes
+                0x000000c2       0x2a /home/scott/at91bootstrap/driver/debug.o
+ .ARM.attributes
+                0x000000ec       0x2a /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .ARM.attributes
+                0x00000116       0x2a /home/scott/at91bootstrap/driver/at91_pio.o
+ .ARM.attributes
+                0x00000140       0x2a /home/scott/at91bootstrap/driver/pmc.o
+ .ARM.attributes
+                0x0000016a       0x2a /home/scott/at91bootstrap/driver/at91_pit.o
+ .ARM.attributes
+                0x00000194       0x2a /home/scott/at91bootstrap/driver/at91_wdt.o
+ .ARM.attributes
+                0x000001be       0x2a /home/scott/at91bootstrap/driver/at91_usart.o
+ .ARM.attributes
+                0x000001e8       0x2a /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .ARM.attributes
+                0x00000212       0x2a /home/scott/at91bootstrap/driver/ddramc.o
+ .ARM.attributes
+                0x0000023c       0x2a /home/scott/at91bootstrap/driver/nandflash.o
+ .ARM.attributes
+                0x00000266       0x2a /home/scott/at91bootstrap/driver/pmecc.o
+ .ARM.attributes
+                0x00000290       0x2a /home/scott/at91bootstrap/driver/ds24xx.o
+
+.comment        0x00000000       0x2b
+ .comment       0x00000000       0x2b /home/scott/at91bootstrap/main.o
+                                 0x2c (size before relaxing)
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/lib/string.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/lib/div.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/debug.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/at91_pio.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/pmc.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/at91_pit.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/at91_wdt.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/at91_usart.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/ddramc.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/nandflash.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/pmecc.o
+ .comment       0x00000000       0x2c /home/scott/at91bootstrap/driver/ds24xx.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/main.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/lib/string.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/lib/div.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/debug.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pio.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/pmc.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_pit.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/at91_usart.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/ddramc.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/nandflash.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/pmecc.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_line     0x00000000     0x1c12
+ .debug_line    0x00000000       0xa8 /home/scott/at91bootstrap/crt0_gnu.o
+ .debug_line    0x000000a8       0xec /home/scott/at91bootstrap/main.o
+ .debug_line    0x00000194      0x14b /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_line    0x000002df      0x179 /home/scott/at91bootstrap/lib/string.o
+ .debug_line    0x00000458       0xb5 /home/scott/at91bootstrap/lib/div.o
+ .debug_line    0x0000050d      0x16d /home/scott/at91bootstrap/driver/debug.o
+ .debug_line    0x0000067a       0x98 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_line    0x00000712      0x1b4 /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_line    0x000008c6      0x25d /home/scott/at91bootstrap/driver/pmc.o
+ .debug_line    0x00000b23       0xfa /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_line    0x00000c1d       0x5c /home/scott/at91bootstrap/driver/at91_wdt.o
+ .debug_line    0x00000c79       0xc3 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_line    0x00000d3c       0x5d /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .debug_line    0x00000d99      0x1a9 /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_line    0x00000f42      0x365 /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_line    0x000012a7      0x5a7 /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_line    0x0000184e      0x3c4 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_info     0x00000000     0x67cb
+ .debug_info    0x00000000       0x65 /home/scott/at91bootstrap/crt0_gnu.o
+ .debug_info    0x00000065      0x41f /home/scott/at91bootstrap/main.o
+ .debug_info    0x00000484      0x67b /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_info    0x00000aff      0x402 /home/scott/at91bootstrap/lib/string.o
+ .debug_info    0x00000f01      0x263 /home/scott/at91bootstrap/lib/div.o
+ .debug_info    0x00001164      0x299 /home/scott/at91bootstrap/driver/debug.o
+ .debug_info    0x000013fd       0xf4 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_info    0x000014f1      0xa0c /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_info    0x00001efd      0x6ec /home/scott/at91bootstrap/driver/pmc.o
+ .debug_info    0x000025e9      0x24d /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_info    0x00002836       0x3b /home/scott/at91bootstrap/driver/at91_wdt.o
+ .debug_info    0x00002871      0x299 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_info    0x00002b0a       0x3b /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .debug_info    0x00002b45      0x730 /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_info    0x00003275     0x13bd /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_info    0x00004632     0x10cf /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_info    0x00005701     0x10ca /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_abbrev   0x00000000     0x1bae
+ .debug_abbrev  0x00000000       0x14 /home/scott/at91bootstrap/crt0_gnu.o
+ .debug_abbrev  0x00000014      0x209 /home/scott/at91bootstrap/main.o
+ .debug_abbrev  0x0000021d      0x210 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_abbrev  0x0000042d       0xe3 /home/scott/at91bootstrap/lib/string.o
+ .debug_abbrev  0x00000510      0x136 /home/scott/at91bootstrap/lib/div.o
+ .debug_abbrev  0x00000646      0x1a2 /home/scott/at91bootstrap/driver/debug.o
+ .debug_abbrev  0x000007e8       0xc4 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_abbrev  0x000008ac      0x1cf /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_abbrev  0x00000a7b      0x175 /home/scott/at91bootstrap/driver/pmc.o
+ .debug_abbrev  0x00000bf0      0x16a /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_abbrev  0x00000d5a       0x2c /home/scott/at91bootstrap/driver/at91_wdt.o
+ .debug_abbrev  0x00000d86      0x167 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_abbrev  0x00000eed       0x2c /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .debug_abbrev  0x00000f19      0x174 /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_abbrev  0x0000108d      0x3b4 /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_abbrev  0x00001441      0x3cd /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_abbrev  0x0000180e      0x3a0 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_aranges  0x00000000      0x410
+ .debug_aranges
+                0x00000000       0x20 /home/scott/at91bootstrap/crt0_gnu.o
+ .debug_aranges
+                0x00000020       0x20 /home/scott/at91bootstrap/main.o
+ .debug_aranges
+                0x00000040       0x28 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_aranges
+                0x00000068       0x70 /home/scott/at91bootstrap/lib/string.o
+ .debug_aranges
+                0x000000d8       0x30 /home/scott/at91bootstrap/lib/div.o
+ .debug_aranges
+                0x00000108       0x28 /home/scott/at91bootstrap/driver/debug.o
+ .debug_aranges
+                0x00000130       0x28 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_aranges
+                0x00000158       0x40 /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_aranges
+                0x00000198       0x58 /home/scott/at91bootstrap/driver/pmc.o
+ .debug_aranges
+                0x000001f0       0x38 /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_aranges
+                0x00000228       0x20 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .debug_aranges
+                0x00000248       0x30 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_aranges
+                0x00000278       0x20 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .debug_aranges
+                0x00000298       0x20 /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_aranges
+                0x000002b8       0x60 /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_aranges
+                0x00000318       0x60 /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_aranges
+                0x00000378       0x98 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_loc      0x00000000     0x3a27
+ .debug_loc     0x00000000       0x6f /home/scott/at91bootstrap/main.o
+ .debug_loc     0x0000006f      0x109 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_loc     0x00000178      0x4ee /home/scott/at91bootstrap/lib/string.o
+ .debug_loc     0x00000666      0x24e /home/scott/at91bootstrap/lib/div.o
+ .debug_loc     0x000008b4      0x1ae /home/scott/at91bootstrap/driver/debug.o
+ .debug_loc     0x00000a62       0x71 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_loc     0x00000ad3      0x62c /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_loc     0x000010ff      0x629 /home/scott/at91bootstrap/driver/pmc.o
+ .debug_loc     0x00001728       0xa8 /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_loc     0x000017d0       0xd8 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_loc     0x000018a8      0x130 /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_loc     0x000019d8      0xb66 /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_loc     0x0000253e      0xd63 /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_loc     0x000032a1      0x786 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_ranges   0x00000000      0xc20
+ .debug_ranges  0x00000000       0x28 /home/scott/at91bootstrap/main.o
+ .debug_ranges  0x00000028       0xc0 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_ranges  0x000000e8       0x60 /home/scott/at91bootstrap/lib/string.o
+ .debug_ranges  0x00000148       0x50 /home/scott/at91bootstrap/lib/div.o
+ .debug_ranges  0x00000198       0x18 /home/scott/at91bootstrap/driver/debug.o
+ .debug_ranges  0x000001b0       0x18 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_ranges  0x000001c8      0x128 /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_ranges  0x000002f0       0xd8 /home/scott/at91bootstrap/driver/pmc.o
+ .debug_ranges  0x000003c8       0xa0 /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_ranges  0x00000468       0x10 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .debug_ranges  0x00000478       0x90 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_ranges  0x00000508       0x10 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .debug_ranges  0x00000518       0xa0 /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_ranges  0x000005b8      0x2f8 /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_ranges  0x000008b0      0x190 /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_ranges  0x00000a40      0x1e0 /home/scott/at91bootstrap/driver/ds24xx.o
+
+.debug_str      0x00000000     0x1468
+ .debug_str     0x00000000      0x143 /home/scott/at91bootstrap/main.o
+                                0x17f (size before relaxing)
+ .debug_str     0x00000143      0x27e /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+                                0x2e5 (size before relaxing)
+ .debug_str     0x000003c1       0x6f /home/scott/at91bootstrap/lib/string.o
+                                 0xbc (size before relaxing)
+ .debug_str     0x00000430       0x6f /home/scott/at91bootstrap/lib/div.o
+                                 0x9c (size before relaxing)
+ .debug_str     0x0000049f       0xc7 /home/scott/at91bootstrap/driver/debug.o
+                                0x155 (size before relaxing)
+ .debug_str     0x00000566       0x59 /home/scott/at91bootstrap/driver/at91_slowclk.o
+                                 0xa3 (size before relaxing)
+ .debug_str     0x000005bf       0xe9 /home/scott/at91bootstrap/driver/at91_pio.o
+                                0x1d2 (size before relaxing)
+ .debug_str     0x000006a8       0xc3 /home/scott/at91bootstrap/driver/pmc.o
+                                0x164 (size before relaxing)
+ .debug_str     0x0000076b       0x72 /home/scott/at91bootstrap/driver/at91_pit.o
+                                 0xef (size before relaxing)
+ .debug_str     0x000007dd       0x2c /home/scott/at91bootstrap/driver/at91_wdt.o
+                                 0x49 (size before relaxing)
+ .debug_str     0x00000809       0x64 /home/scott/at91bootstrap/driver/at91_usart.o
+                                 0xa5 (size before relaxing)
+ .debug_str     0x0000086d       0x30 /home/scott/at91bootstrap/driver/hw_init_hook.o
+                                 0x49 (size before relaxing)
+ .debug_str     0x0000089d       0x88 /home/scott/at91bootstrap/driver/ddramc.o
+                                0x129 (size before relaxing)
+ .debug_str     0x00000925      0x48a /home/scott/at91bootstrap/driver/nandflash.o
+                                0x611 (size before relaxing)
+ .debug_str     0x00000daf      0x2b1 /home/scott/at91bootstrap/driver/pmecc.o
+                                0x54b (size before relaxing)
+ .debug_str     0x00001060      0x408 /home/scott/at91bootstrap/driver/ds24xx.o
+                                0x518 (size before relaxing)
+
+.debug_frame    0x00000000      0x7c8
+ .debug_frame   0x00000000       0x2c /home/scott/at91bootstrap/main.o
+ .debug_frame   0x0000002c       0x44 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+ .debug_frame   0x00000070       0xd4 /home/scott/at91bootstrap/lib/string.o
+ .debug_frame   0x00000144       0x68 /home/scott/at91bootstrap/lib/div.o
+ .debug_frame   0x000001ac       0x60 /home/scott/at91bootstrap/driver/debug.o
+ .debug_frame   0x0000020c       0x40 /home/scott/at91bootstrap/driver/at91_slowclk.o
+ .debug_frame   0x0000024c       0x6c /home/scott/at91bootstrap/driver/at91_pio.o
+ .debug_frame   0x000002b8       0x90 /home/scott/at91bootstrap/driver/pmc.o
+ .debug_frame   0x00000348       0x58 /home/scott/at91bootstrap/driver/at91_pit.o
+ .debug_frame   0x000003a0       0x20 /home/scott/at91bootstrap/driver/at91_wdt.o
+ .debug_frame   0x000003c0       0x48 /home/scott/at91bootstrap/driver/at91_usart.o
+ .debug_frame   0x00000408       0x20 /home/scott/at91bootstrap/driver/hw_init_hook.o
+ .debug_frame   0x00000428       0x3c /home/scott/at91bootstrap/driver/ddramc.o
+ .debug_frame   0x00000464      0x100 /home/scott/at91bootstrap/driver/nandflash.o
+ .debug_frame   0x00000564       0xfc /home/scott/at91bootstrap/driver/pmecc.o
+ .debug_frame   0x00000660      0x168 /home/scott/at91bootstrap/driver/ds24xx.o
+
+Cross Reference Table
+
+Symbol                                            File
+PMECC_CorrectionAlgo                              /home/scott/at91bootstrap/driver/pmecc.o
+PMECC_paramDesc                                   /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+__aeabi_unwind_cpp_pr0                            /home/scott/at91bootstrap/lib/eabi_utils.o
+__aeabi_unwind_cpp_pr1                            /home/scott/at91bootstrap/lib/eabi_utils.o
+_ebss                                             /home/scott/at91bootstrap/crt0_gnu.o
+_edata                                            /home/scott/at91bootstrap/crt0_gnu.o
+_edummy                                           /home/scott/at91bootstrap/crt0_gnu.o
+_romsize                                          /home/scott/at91bootstrap/crt0_gnu.o
+_sbss                                             /home/scott/at91bootstrap/crt0_gnu.o
+_sdata                                            /home/scott/at91bootstrap/crt0_gnu.o
+at91_disable_wdt                                  /home/scott/at91bootstrap/driver/at91_wdt.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+buf_dump                                          /home/scott/at91bootstrap/driver/pmecc.o
+dbg_printf                                        /home/scott/at91bootstrap/driver/debug.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+                                                  /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+ddram_initialize                                  /home/scott/at91bootstrap/driver/ddramc.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+disable_dcache                                    /home/scott/at91bootstrap/crt0_gnu.o
+disable_icache                                    /home/scott/at91bootstrap/crt0_gnu.o
+disable_irq                                       /home/scott/at91bootstrap/crt0_gnu.o
+div                                               /home/scott/at91bootstrap/lib/div.o
+                                                  /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+division                                          /home/scott/at91bootstrap/lib/div.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+flush_idcache                                     /home/scott/at91bootstrap/crt0_gnu.o
+get_cm_rev                                        /home/scott/at91bootstrap/driver/ds24xx.o
+get_cm_sn                                         /home/scott/at91bootstrap/driver/ds24xx.o
+get_cm_vendor                                     /home/scott/at91bootstrap/driver/ds24xx.o
+get_cp15                                          /home/scott/at91bootstrap/crt0_gnu.o
+get_cpsr                                          /home/scott/at91bootstrap/crt0_gnu.o
+get_dm_sn                                         /home/scott/at91bootstrap/driver/ds24xx.o
+get_pmecc_bytes                                   /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+get_sys_rev                                       /home/scott/at91bootstrap/driver/ds24xx.o
+get_sys_sn                                        /home/scott/at91bootstrap/driver/ds24xx.o
+hw_init                                           /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+                                                  /home/scott/at91bootstrap/main.o
+hw_init_hook                                      /home/scott/at91bootstrap/driver/hw_init_hook.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+init_pmecc                                        /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+load_1wire_info                                   /home/scott/at91bootstrap/driver/ds24xx.o
+                                                  /home/scott/at91bootstrap/main.o
+load_nandflash                                    /home/scott/at91bootstrap/driver/nandflash.o
+                                                  /home/scott/at91bootstrap/main.o
+lowlevel_clock_init                               /home/scott/at91bootstrap/driver/pmc.o
+                                                  /home/scott/at91bootstrap/crt0_gnu.o
+main                                              /home/scott/at91bootstrap/main.o
+                                                  /home/scott/at91bootstrap/crt0_gnu.o
+memchr                                            /home/scott/at91bootstrap/lib/string.o
+memcmp                                            /home/scott/at91bootstrap/lib/string.o
+memcpy                                            /home/scott/at91bootstrap/lib/string.o
+memmove                                           /home/scott/at91bootstrap/lib/string.o
+memset                                            /home/scott/at91bootstrap/lib/string.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+                                                  /home/scott/at91bootstrap/main.o
+mod                                               /home/scott/at91bootstrap/lib/div.o
+                                                  /home/scott/at91bootstrap/driver/pmecc.o
+nandflash_hw_init                                 /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+page_dump                                         /home/scott/at91bootstrap/driver/pmecc.o
+pio_configure                                     /home/scott/at91bootstrap/driver/at91_pio.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pio_get_value                                     /home/scott/at91bootstrap/driver/at91_pio.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+pio_set_gpio_input                                /home/scott/at91bootstrap/driver/at91_pio.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+pio_set_gpio_output                               /home/scott/at91bootstrap/driver/at91_pio.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pio_set_value                                     /home/scott/at91bootstrap/driver/at91_pio.o
+pmc_cfg_mck                                       /home/scott/at91bootstrap/driver/pmc.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pmc_cfg_pck                                       /home/scott/at91bootstrap/driver/pmc.o
+pmc_cfg_plla                                      /home/scott/at91bootstrap/driver/pmc.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pmc_cfg_pllb                                      /home/scott/at91bootstrap/driver/pmc.o
+pmc_enable_periph_clock                           /home/scott/at91bootstrap/driver/pmc.o
+                                                  /home/scott/at91bootstrap/driver/at91_pit.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pmc_enable_system_clock                           /home/scott/at91bootstrap/driver/pmc.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pmc_init_pll                                      /home/scott/at91bootstrap/driver/pmc.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+pmecc_enable                                      /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+pmecc_process                                     /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+pmecc_start_data_phase                            /home/scott/at91bootstrap/driver/pmecc.o
+                                                  /home/scott/at91bootstrap/driver/nandflash.o
+reset                                             /home/scott/at91bootstrap/crt0_gnu.o
+sdcard_set_of_name                                /home/scott/at91bootstrap/main.o
+set_cp15                                          /home/scott/at91bootstrap/crt0_gnu.o
+set_cpsr                                          /home/scott/at91bootstrap/crt0_gnu.o
+slowclk_enable_osc32                              /home/scott/at91bootstrap/driver/at91_slowclk.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+slowclk_switch_osc32                              /home/scott/at91bootstrap/driver/at91_slowclk.o
+                                                  /home/scott/at91bootstrap/main.o
+start_interval_timer                              /home/scott/at91bootstrap/driver/at91_pit.o
+                                                  /home/scott/at91bootstrap/driver/at91_slowclk.o
+strcat                                            /home/scott/at91bootstrap/lib/string.o
+strchr                                            /home/scott/at91bootstrap/lib/string.o
+strcmp                                            /home/scott/at91bootstrap/lib/string.o
+strcpy                                            /home/scott/at91bootstrap/lib/string.o
+strlen                                            /home/scott/at91bootstrap/lib/string.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+strncmp                                           /home/scott/at91bootstrap/lib/string.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+timer_init                                        /home/scott/at91bootstrap/driver/at91_pit.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+udelay                                            /home/scott/at91bootstrap/driver/at91_pit.o
+                                                  /home/scott/at91bootstrap/driver/ds24xx.o
+                                                  /home/scott/at91bootstrap/driver/ddramc.o
+                                                  /home/scott/at91bootstrap/driver/at91_slowclk.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+usart_getc                                        /home/scott/at91bootstrap/driver/at91_usart.o
+usart_init                                        /home/scott/at91bootstrap/driver/at91_usart.o
+                                                  /home/scott/at91bootstrap/board/sama5d3xek/sama5d3xek.o
+usart_puts                                        /home/scott/at91bootstrap/driver/at91_usart.o
+                                                  /home/scott/at91bootstrap/driver/debug.o
+                                                  /home/scott/at91bootstrap/main.o
+wait_interval_timer                               /home/scott/at91bootstrap/driver/at91_pit.o
+                                                  /home/scott/at91bootstrap/driver/at91_slowclk.o
