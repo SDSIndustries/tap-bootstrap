@@ -1,0 +1,17 @@
+
+#include "arch/at91_pio.h"
+
+
+void hw_init_hook(void)
+{
+    /*
+     * This is a placeholder for the users custom init routine
+     * Overwrite this file with your own routine to init
+     * your own H/W features.
+     */
+
+	pio_set_gpio_output(AT91C_PIN_PB(19), 0); //Set PB19 as output and low
+	
+	pio_set_gpio_input(AT91C_PIN_PD(31), 0); //Set PD31 as input and low
+
+}
