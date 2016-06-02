@@ -328,186 +328,186 @@ Linker script and memory map
                 0x00000000003017e4                usart_puts
 
 .text.hw_init_hook
-                0x0000000000301834       0xbc
+                0x0000000000301834       0xc8
  .text.hw_init_hook
-                0x0000000000301834       0xbc /home/scott/controller/tap-bootstrap/driver/hw_init_hook.o
+                0x0000000000301834       0xc8 /home/scott/controller/tap-bootstrap/driver/hw_init_hook.o
                 0x0000000000301834                hw_init_hook
 
 .text.ddram_initialize
-                0x00000000003018f0      0x1d0
+                0x00000000003018fc      0x1d0
  .text.ddram_initialize
-                0x00000000003018f0      0x1d0 /home/scott/controller/tap-bootstrap/driver/ddramc.o
-                0x00000000003018f0                ddram_initialize
+                0x00000000003018fc      0x1d0 /home/scott/controller/tap-bootstrap/driver/ddramc.o
+                0x00000000003018fc                ddram_initialize
 
 .text.nand_command
-                0x0000000000301ac0       0x20
+                0x0000000000301acc       0x20
  .text.nand_command
-                0x0000000000301ac0       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301acc       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_address
-                0x0000000000301ae0       0x20
+                0x0000000000301aec       0x20
  .text.nand_address
-                0x0000000000301ae0       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301aec       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_command16
-                0x0000000000301b00       0x20
+                0x0000000000301b0c       0x20
  .text.nand_command16
-                0x0000000000301b00       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301b0c       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_address16
-                0x0000000000301b20       0x20
+                0x0000000000301b2c       0x20
  .text.nand_address16
-                0x0000000000301b20       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301b2c       0x20 /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_wait_ready
-                0x0000000000301b40       0x30
+                0x0000000000301b4c       0x30
  .text.nand_wait_ready
-                0x0000000000301b40       0x30 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301b4c       0x30 /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_get_feature_on_die_ecc
-                0x0000000000301b70       0x2c
+                0x0000000000301b7c       0x2c
  .text.nand_get_feature_on_die_ecc
-                0x0000000000301b70       0x2c /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301b7c       0x2c /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_read_sector
-                0x0000000000301b9c      0x1bc
+                0x0000000000301ba8      0x1bc
  .text.nand_read_sector
-                0x0000000000301b9c      0x1bc /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301ba8      0x1bc /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.nand_loadimage
-                0x0000000000301d58      0x188
+                0x0000000000301d64      0x188
  .text.nand_loadimage
-                0x0000000000301d58      0x188 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301d64      0x188 /home/scott/controller/tap-bootstrap/driver/nandflash.o
 
 .text.load_nandflash
-                0x0000000000301ee0      0x410
+                0x0000000000301eec      0x410
  .text.load_nandflash
-                0x0000000000301ee0      0x410 /home/scott/controller/tap-bootstrap/driver/nandflash.o
-                0x0000000000301ee0                load_nandflash
+                0x0000000000301eec      0x410 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000301eec                load_nandflash
 
 .text.get_sigma
-                0x00000000003022f0      0x590
+                0x00000000003022fc      0x590
  .text.get_sigma
-                0x00000000003022f0      0x590 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x00000000003022fc      0x590 /home/scott/controller/tap-bootstrap/driver/pmecc.o
 
 .text.get_pmecc_bytes
-                0x0000000000302880       0x70
+                0x000000000030288c       0x70
  .text.get_pmecc_bytes
-                0x0000000000302880       0x70 /home/scott/controller/tap-bootstrap/driver/pmecc.o
-                0x0000000000302880                get_pmecc_bytes
+                0x000000000030288c       0x70 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x000000000030288c                get_pmecc_bytes
 
 .text.init_pmecc
-                0x00000000003028f0      0x1a4
+                0x00000000003028fc      0x1a4
  .text.init_pmecc
-                0x00000000003028f0      0x1a4 /home/scott/controller/tap-bootstrap/driver/pmecc.o
-                0x00000000003028f0                init_pmecc
+                0x00000000003028fc      0x1a4 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x00000000003028fc                init_pmecc
 
 .text.pmecc_enable
-                0x0000000000302a94       0x24
+                0x0000000000302aa0       0x24
  .text.pmecc_enable
-                0x0000000000302a94       0x24 /home/scott/controller/tap-bootstrap/driver/pmecc.o
-                0x0000000000302a94                pmecc_enable
+                0x0000000000302aa0       0x24 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x0000000000302aa0                pmecc_enable
 
 .text.pmecc_start_data_phase
-                0x0000000000302ab8       0x18
+                0x0000000000302ac4       0x18
  .text.pmecc_start_data_phase
-                0x0000000000302ab8       0x18 /home/scott/controller/tap-bootstrap/driver/pmecc.o
-                0x0000000000302ab8                pmecc_start_data_phase
+                0x0000000000302ac4       0x18 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x0000000000302ac4                pmecc_start_data_phase
 
 .text.PMECC_CorrectionAlgo
-                0x0000000000302ad0      0x394
+                0x0000000000302adc      0x394
  .text.PMECC_CorrectionAlgo
-                0x0000000000302ad0      0x394 /home/scott/controller/tap-bootstrap/driver/pmecc.o
-                0x0000000000302ad0                PMECC_CorrectionAlgo
+                0x0000000000302adc      0x394 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x0000000000302adc                PMECC_CorrectionAlgo
 
 .text.pmecc_process
-                0x0000000000302e64       0xc0
+                0x0000000000302e70       0xc0
  .text.pmecc_process
-                0x0000000000302e64       0xc0 /home/scott/controller/tap-bootstrap/driver/pmecc.o
-                0x0000000000302e64                pmecc_process
+                0x0000000000302e70       0xc0 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+                0x0000000000302e70                pmecc_process
 
 .text.set_wire_low
-                0x0000000000302f24        0xc
- .text.set_wire_low
-                0x0000000000302f24        0xc /home/scott/controller/tap-bootstrap/driver/ds24xx.o
-
-.text.set_wire_input
                 0x0000000000302f30        0xc
- .text.set_wire_input
+ .text.set_wire_low
                 0x0000000000302f30        0xc /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
+.text.set_wire_input
+                0x0000000000302f3c        0xc
+ .text.set_wire_input
+                0x0000000000302f3c        0xc /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+
 .text.ds24xx_read_bit
-                0x0000000000302f3c       0x38
+                0x0000000000302f48       0x38
  .text.ds24xx_read_bit
-                0x0000000000302f3c       0x38 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000302f48       0x38 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.normalize_rev_code
-                0x0000000000302f74       0x34
+                0x0000000000302f80       0x34
  .text.normalize_rev_code
-                0x0000000000302f74       0x34 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000302f80       0x34 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.normalize_rev_id
-                0x0000000000302fa8       0x34
+                0x0000000000302fb4       0x34
  .text.normalize_rev_id
-                0x0000000000302fa8       0x34 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000302fb4       0x34 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.ds24xx_write_bit.part.2
-                0x0000000000302fdc       0x20
+                0x0000000000302fe8       0x20
  .text.ds24xx_write_bit.part.2
-                0x0000000000302fdc       0x20 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000302fe8       0x20 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.ds24xx_reset
-                0x0000000000302ffc       0x38
+                0x0000000000303008       0x38
  .text.ds24xx_reset
-                0x0000000000302ffc       0x38 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000303008       0x38 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.ds24xx_write_byte
-                0x0000000000303034       0x44
+                0x0000000000303040       0x44
  .text.ds24xx_write_byte
-                0x0000000000303034       0x44 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000303040       0x44 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.ds24xx_search_rom
-                0x0000000000303078      0x1ac
+                0x0000000000303084      0x1ac
  .text.ds24xx_search_rom
-                0x0000000000303078      0x1ac /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000303084      0x1ac /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .text.load_1wire_info
-                0x0000000000303224      0x648
+                0x0000000000303230      0x648
  .text.load_1wire_info
-                0x0000000000303224      0x648 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
-                0x0000000000303224                load_1wire_info
+                0x0000000000303230      0x648 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000303230                load_1wire_info
 
-.rel.dyn        0x000000000030386c        0x0
+.rel.dyn        0x0000000000303878        0x0
  .rel.iplt      0x0000000000000000        0x0 /home/scott/controller/tap-bootstrap/crt0_gnu.o
-                0x000000000030386c                . = ALIGN (0x4)
+                0x0000000000303878                . = ALIGN (0x4)
 
-.dummy          0x000000000030386c        0x0
-                0x000000000030386c                _edummy = .
+.dummy          0x0000000000303878        0x0
+                0x0000000000303878                _edummy = .
 
-.data           0x000000000030386c        0x0
-                0x000000000030386c                _sdata = .
+.data           0x0000000000303878        0x0
+                0x0000000000303878                _sdata = .
  *(.vectors)
  *(.data)
-                0x000000000030386c                _edata = .
+                0x0000000000303878                _edata = .
 
-.igot.plt       0x000000000030386c        0x0
+.igot.plt       0x0000000000303878        0x0
  .igot.plt      0x0000000000000000        0x0 /home/scott/controller/tap-bootstrap/crt0_gnu.o
 
-.bss            0x000000000030386c     0x13a0
-                0x000000000030386c                . = ALIGN (0x4)
-                0x000000000030386c                _sbss = .
+.bss            0x0000000000303878     0x13a0
+                0x0000000000303878                . = ALIGN (0x4)
+                0x0000000000303878                _sbss = .
  *(.bss)
- .bss           0x000000000030386c        0x8 /home/scott/controller/tap-bootstrap/main.o
-                0x0000000000303870                sdcard_set_of_name
- .bss           0x0000000000303874       0x80 /home/scott/controller/tap-bootstrap/driver/debug.o
- .bss           0x00000000003038f4        0x4 /home/scott/controller/tap-bootstrap/driver/at91_pit.o
- .bss           0x00000000003038f8      0x414 /home/scott/controller/tap-bootstrap/driver/nandflash.o
- .bss           0x0000000000303d0c      0x234 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
-                0x0000000000303f40                _ebss = .
- COMMON         0x0000000000303f40      0xccc /home/scott/controller/tap-bootstrap/driver/nandflash.o
-                0x0000000000303f40                PMECC_paramDesc
-                0x000000000000386c                _romsize = (_edata - _stext)
-                0x0000000000304c0c                end = .
+ .bss           0x0000000000303878        0x8 /home/scott/controller/tap-bootstrap/main.o
+                0x000000000030387c                sdcard_set_of_name
+ .bss           0x0000000000303880       0x80 /home/scott/controller/tap-bootstrap/driver/debug.o
+ .bss           0x0000000000303900        0x4 /home/scott/controller/tap-bootstrap/driver/at91_pit.o
+ .bss           0x0000000000303904      0x414 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+ .bss           0x0000000000303d18      0x234 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+                0x0000000000303f4c                _ebss = .
+ COMMON         0x0000000000303f4c      0xccc /home/scott/controller/tap-bootstrap/driver/nandflash.o
+                0x0000000000303f4c                PMECC_paramDesc
+                0x0000000000003878                _romsize = (_edata - _stext)
+                0x0000000000304c18                end = .
 Address of section .text set to 0x300000
 LOAD /home/scott/controller/tap-bootstrap/crt0_gnu.o
 LOAD /home/scott/controller/tap-bootstrap/main.o
@@ -625,7 +625,7 @@ start           0x0000000000000000        0x0
  .note.GNU-stack
                 0x0000000000000000        0x0 /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
-.debug_line     0x0000000000000000     0x1cde
+.debug_line     0x0000000000000000     0x1cdf
  .debug_line    0x0000000000000000       0xb3 /home/scott/controller/tap-bootstrap/crt0_gnu.o
  .debug_line    0x00000000000000b3       0xf7 /home/scott/controller/tap-bootstrap/main.o
  .debug_line    0x00000000000001aa      0x156 /home/scott/controller/tap-bootstrap/board/sama5d3xek/sama5d3xek.o
@@ -638,13 +638,13 @@ start           0x0000000000000000        0x0
  .debug_line    0x0000000000000b86      0x105 /home/scott/controller/tap-bootstrap/driver/at91_pit.o
  .debug_line    0x0000000000000c8b       0x67 /home/scott/controller/tap-bootstrap/driver/at91_wdt.o
  .debug_line    0x0000000000000cf2       0xce /home/scott/controller/tap-bootstrap/driver/at91_usart.o
- .debug_line    0x0000000000000dc0       0x79 /home/scott/controller/tap-bootstrap/driver/hw_init_hook.o
- .debug_line    0x0000000000000e39      0x1b4 /home/scott/controller/tap-bootstrap/driver/ddramc.o
- .debug_line    0x0000000000000fed      0x370 /home/scott/controller/tap-bootstrap/driver/nandflash.o
- .debug_line    0x000000000000135d      0x5b2 /home/scott/controller/tap-bootstrap/driver/pmecc.o
- .debug_line    0x000000000000190f      0x3cf /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+ .debug_line    0x0000000000000dc0       0x7a /home/scott/controller/tap-bootstrap/driver/hw_init_hook.o
+ .debug_line    0x0000000000000e3a      0x1b4 /home/scott/controller/tap-bootstrap/driver/ddramc.o
+ .debug_line    0x0000000000000fee      0x370 /home/scott/controller/tap-bootstrap/driver/nandflash.o
+ .debug_line    0x000000000000135e      0x5b2 /home/scott/controller/tap-bootstrap/driver/pmecc.o
+ .debug_line    0x0000000000001910      0x3cf /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
-.debug_info     0x0000000000000000     0x69aa
+.debug_info     0x0000000000000000     0x69c3
  .debug_info    0x0000000000000000       0x7b /home/scott/controller/tap-bootstrap/crt0_gnu.o
  .debug_info    0x000000000000007b      0x41f /home/scott/controller/tap-bootstrap/main.o
  .debug_info    0x000000000000049a      0x67b /home/scott/controller/tap-bootstrap/board/sama5d3xek/sama5d3xek.o
@@ -657,11 +657,11 @@ start           0x0000000000000000        0x0
  .debug_info    0x00000000000025ff      0x24d /home/scott/controller/tap-bootstrap/driver/at91_pit.o
  .debug_info    0x000000000000284c       0x3b /home/scott/controller/tap-bootstrap/driver/at91_wdt.o
  .debug_info    0x0000000000002887      0x299 /home/scott/controller/tap-bootstrap/driver/at91_usart.o
- .debug_info    0x0000000000002b20      0x204 /home/scott/controller/tap-bootstrap/driver/hw_init_hook.o
- .debug_info    0x0000000000002d24      0x730 /home/scott/controller/tap-bootstrap/driver/ddramc.o
- .debug_info    0x0000000000003454     0x13bd /home/scott/controller/tap-bootstrap/driver/nandflash.o
- .debug_info    0x0000000000004811     0x10cf /home/scott/controller/tap-bootstrap/driver/pmecc.o
- .debug_info    0x00000000000058e0     0x10ca /home/scott/controller/tap-bootstrap/driver/ds24xx.o
+ .debug_info    0x0000000000002b20      0x21d /home/scott/controller/tap-bootstrap/driver/hw_init_hook.o
+ .debug_info    0x0000000000002d3d      0x730 /home/scott/controller/tap-bootstrap/driver/ddramc.o
+ .debug_info    0x000000000000346d     0x13bd /home/scott/controller/tap-bootstrap/driver/nandflash.o
+ .debug_info    0x000000000000482a     0x10cf /home/scott/controller/tap-bootstrap/driver/pmecc.o
+ .debug_info    0x00000000000058f9     0x10ca /home/scott/controller/tap-bootstrap/driver/ds24xx.o
 
 .debug_abbrev   0x0000000000000000     0x1c0b
  .debug_abbrev  0x0000000000000000       0x14 /home/scott/controller/tap-bootstrap/crt0_gnu.o

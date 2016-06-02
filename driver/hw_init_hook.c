@@ -10,7 +10,8 @@ void hw_init_hook(void)
      * your own H/W features.
      */
 
-	pio_set_gpio_output(AT91C_PIN_PB(15), 1); //Set PB15 (DM) as output and high
+	pio_set_gpio_output(AT91C_PIN_PB(15), 1); //Set PB15 (DM Enable) as output and high
+	pio_set_gpio_output(AT91C_PIN_PD(7), 0); //Set PD7 (DM Dimmer) as output and Low
 
 	pio_set_gpio_output(AT91C_PIN_PB(19), 0); //Set PB19 (Relay 1) as output and low
 	pio_set_gpio_output(AT91C_PIN_PB(20), 0); //Set PB20 (Relay 2) as output and low
@@ -29,5 +30,4 @@ void hw_init_hook(void)
 	pio_set_gpio_input(AT91C_PIN_PD(29), 0); //Set PD29 as input and low
 	pio_set_gpio_input(AT91C_PIN_PD(30), 0); //Set PD30 as input and low	
 	pio_set_gpio_input(AT91C_PIN_PD(31), 0); //Set PD31 as input and low
-
 }

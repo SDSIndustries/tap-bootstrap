@@ -1,6 +1,6 @@
 /*
  * Automatically generated C config: don't edit
- * Wed May 27 19:30:27 2015
+ * Thu Jun  2 17:02:51 2016
  */
 #define CONFIG_DEBUG_INFO 1
 #define CONFIG_LOAD_ONE_WIRE 1
