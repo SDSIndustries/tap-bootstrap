@@ -1,4 +1,0 @@
-# ATTENTION! This does not handle 'depends', just 'select'! 
-# See package/config/util.c write_make_deps()
-#
-config_sama5d3xek: $(BASE_TARGETS) sama5d3x config_ddrc allow_dataflash allow_nandflash allow_sdcard allow_hsmci allow_cpu_clk_266mhz allow_cpu_clk_332mhz allow_cpu_clk_396mhz allow_cpu_clk_498mhz allow_cpu_clk_528mhz allow_crystal_12_000mhz allow_boot_from_dataflash_cs0 allow_pio3 cpu_has_pmecc config_load_one_wire config_mmc_support
